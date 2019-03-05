@@ -1,0 +1,715 @@
+# Translation of Themes - VT Blogging in Russian
+# This file is distributed under the same license as the Themes - VT Blogging package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-05 12:24:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - VT Blogging\n"
+
+#. Theme Name of the plugin/theme
+msgid "VT Blogging"
+msgstr "VT Blogging"
+
+#. Description of the plugin/theme
+msgid "VT Blogging is a Minimal and Clean WordPress Theme. Mobile-friendly (responsive), optimized for speed, and implements SEO (search engine optimization) best practices. The theme options are powered by Customizer. You can check out the demo for a closer look at: https://volthemes.com/demo?theme=VT-Blogging"
+msgstr "VT Blogging — это минимальная и чистая тема для WordPress. Мобильная, оптимизированная для скорости, и реализущая лучшие методы SEO (поисковая оптимизация). Настройки темы поддерживаются Customizer. Вы можете посмотреть демонстрацию по адресу http://volthemes.com/demo/vt-blogging/ для более пристального просмотра."
+
+#: inc/class-vt-blogging-admin.php:480
+msgid "Translation Ready"
+msgstr "Готова к переводу"
+
+#: inc/class-vt-blogging-admin.php:477
+msgid "Support Forum + Emails/Support Ticket"
+msgstr "Форум поддержки + Тикеты по эл.почте и в поддержку"
+
+#: inc/class-vt-blogging-admin.php:476
+msgid "Forum"
+msgstr "Форум"
+
+#: inc/class-vt-blogging-admin.php:475
+msgid "Support"
+msgstr "Поддержка"
+
+#: inc/class-vt-blogging-admin.php:470
+msgid "Content Demo"
+msgstr "Демо содержимое"
+
+#: inc/class-vt-blogging-admin.php:465
+msgid "Custom Scripts Editor"
+msgstr "Редактор пользовательских скриптов"
+
+#: inc/class-vt-blogging-admin.php:460
+msgid "Footer Copyright Editor"
+msgstr "Редактор авторской информации в подвале"
+
+#: inc/class-vt-blogging-admin.php:450
+msgid "Woocommerce Compatible"
+msgstr "Совместима с Woocommerce"
+
+#: inc/class-vt-blogging-admin.php:445
+msgid "RTL Support"
+msgstr "Поддержка языков RTL"
+
+#: inc/class-vt-blogging-admin.php:442
+msgid "9+"
+msgstr "9+"
+
+#: inc/class-vt-blogging-admin.php:440
+msgid "Social Icons"
+msgstr "Значки социальных сетей"
+
+#: inc/class-vt-blogging-admin.php:435
+msgid "Override Theme Text"
+msgstr "Переопределение текста темы"
+
+#: inc/class-vt-blogging-admin.php:427
+msgid "10"
+msgstr "10"
+
+#: inc/class-vt-blogging-admin.php:417 inc/class-vt-blogging-admin.php:421
+#: inc/class-vt-blogging-admin.php:426
+msgid "2"
+msgstr "2"
+
+#: inc/class-vt-blogging-admin.php:416
+msgid "1"
+msgstr "1"
+
+#: inc/class-vt-blogging-admin.php:415
+msgid "Custom Menu"
+msgstr "Пользовательское меню"
+
+#: inc/class-vt-blogging-admin.php:412
+msgid "35+ color options"
+msgstr "35+ настроек цветов"
+
+#: inc/class-vt-blogging-admin.php:411 inc/class-vt-blogging-admin.php:422
+#: inc/class-vt-blogging-admin.php:441
+msgid "5"
+msgstr "5"
+
+#: inc/class-vt-blogging-admin.php:410
+msgid "Color Options"
+msgstr "Настройки цвета"
+
+#: inc/class-vt-blogging-admin.php:405
+msgid "Animation"
+msgstr "Анимация"
+
+#: inc/class-vt-blogging-admin.php:400
+msgid "Font Settings"
+msgstr "Настройка шрифта"
+
+#: inc/class-vt-blogging-admin.php:397
+msgid "600+"
+msgstr "600+"
+
+#: inc/class-vt-blogging-admin.php:395
+msgid "Google Fonts Option"
+msgstr "Настройки шрифтов Google"
+
+#: inc/class-vt-blogging-admin.php:374
+msgid "VT Blogging Lite"
+msgstr "VT Blogging Lite"
+
+#: inc/class-vt-blogging-admin.php:373
+msgid "Features"
+msgstr "Возможности"
+
+#: inc/class-vt-blogging-admin.php:350
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/class-vt-blogging-admin.php:347
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: inc/class-vt-blogging-admin.php:344
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/class-vt-blogging-admin.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr "Эй! Жульничаем?"
+
+#: inc/class-vt-blogging-admin.php:95
+msgid "Dismiss"
+msgstr "Скрыть"
+
+#: inc/class-vt-blogging-admin.php:341
+msgid "This theme recommends following plugins:"
+msgstr "Эта тема рекомендует следующие плагины:"
+
+#: inc/class-vt-blogging-admin.php:420
+msgid "Layout option"
+msgstr "Настройка макета"
+
+#: inc/class-vt-blogging-admin.php:430
+msgid "Blog & Post Settings"
+msgstr "Настройки блога и записей"
+
+#: inc/class-vt-blogging-admin.php:425
+msgid "Additional Custom Widget"
+msgstr "Дополнительный пользовательский виджет"
+
+#: inc/class-vt-blogging-admin.php:287
+msgid "View changelog below:"
+msgstr "Посмотреть журнал  изменений ниже:"
+
+#: inc/class-vt-blogging-admin.php:270
+msgid "Go to Dashboard"
+msgstr "Перейти к консоли"
+
+#: inc/class-vt-blogging-admin.php:270
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Перейти к Консоль &rarr; Главная"
+
+#: inc/class-vt-blogging-admin.php:267
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Вернуться в Консоль &rarr; Обновления"
+
+#: inc/class-vt-blogging-admin.php:267
+msgid "Return to Updates"
+msgstr "Вернуться к обновлениям"
+
+#: inc/class-vt-blogging-admin.php:251
+msgid "Click below to translate this theme into your own language."
+msgstr "Нажмите ниже, чтобы перевести тему на ваш язык"
+
+#: inc/class-vt-blogging-admin.php:247 inc/class-vt-blogging-admin.php:255
+msgid "Translate"
+msgstr "Перевести"
+
+#: inc/class-vt-blogging-admin.php:240
+msgid "Contact Page"
+msgstr "Страница контактов"
+
+#: inc/class-vt-blogging-admin.php:238
+msgid "Please send it via our sales contact page."
+msgstr "Пожалуйста отправьте это через нашу страницу контактов для продаж."
+
+#: inc/class-vt-blogging-admin.php:237
+msgid "Got sales related question?"
+msgstr "Есть вопросы о продаже?"
+
+#: inc/class-vt-blogging-admin.php:232 inc/class-vt-blogging-admin.php:488
+msgid "View Pro"
+msgstr "Посмотреть Про"
+
+#: inc/class-vt-blogging-admin.php:230 inc/class-vt-blogging-admin.php:368
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Обновите на версию Про для большего числа захватывающих возможностей."
+
+#: inc/class-vt-blogging-admin.php:229
+msgid "Need more features?"
+msgstr "Нужно больше возможностей?"
+
+#: inc/class-vt-blogging-admin.php:224
+msgid "Support Forum"
+msgstr "Форум поддержки"
+
+#: inc/class-vt-blogging-admin.php:221
+msgid "Got theme support question?"
+msgstr "Есть вопрос по поддержке темы?"
+
+#: inc/class-vt-blogging-admin.php:222
+msgid "Please put it in our dedicated support forum."
+msgstr "Задайте его на специальном форуме поддержки."
+
+#: inc/class-vt-blogging-admin.php:213 inc/class-vt-blogging-admin.php:216
+msgid "Documentation"
+msgstr "Документация"
+
+#: inc/class-vt-blogging-admin.php:208
+msgid "Customize"
+msgstr "Настроить"
+
+#: inc/class-vt-blogging-admin.php:206
+msgid "All Theme Options are available via Customize screen."
+msgstr "Все возможности настройки темы доступны через интерфейс настройки."
+
+#: inc/class-vt-blogging-admin.php:205
+msgid "Theme Customizer"
+msgstr "Настройка темы"
+
+#: inc/class-vt-blogging-admin.php:171
+msgid "Changelog"
+msgstr "Журнал изменений"
+
+#: inc/class-vt-blogging-admin.php:163
+msgid "Free Vs Pro"
+msgstr "Бесплатно или Про ?"
+
+#: inc/class-vt-blogging-admin.php:155
+msgid "Supported Plugins"
+msgstr "Поддерживаемые плагины"
+
+#: inc/class-vt-blogging-admin.php:140
+msgid "Rate this theme"
+msgstr "Оцените тему"
+
+#: inc/class-vt-blogging-admin.php:138
+msgid "View PRO version"
+msgstr "Посмотреть версию Про"
+
+#: inc/class-vt-blogging-admin.php:136
+msgid "View Demo"
+msgstr "Посмотреть демо"
+
+#: inc/class-vt-blogging-admin.php:134
+msgid "Theme Info"
+msgstr "Информация о теме"
+
+#: inc/class-vt-blogging-admin.php:36 inc/class-vt-blogging-admin.php:119
+msgid "About"
+msgstr "О теме"
+
+#: customizer/customizer-options.php:129
+msgid "Color Settings"
+msgstr "Настройка цвета"
+
+#: inc/class-vt-blogging-admin.php:77
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Действие не удалось. Обновите страницу и попробуйте снова."
+
+#: inc/class-vt-blogging-admin.php:98
+msgid "Get started with VT Blogging Lite"
+msgstr "Начните с VT Blogging Lite"
+
+#: inc/class-vt-blogging-admin.php:390
+msgid "Sticky Sidebar"
+msgstr "Прикркпленный сайтбар"
+
+#: inc/class-vt-blogging-admin.php:380
+msgid "Slider"
+msgstr "Слайдер"
+
+#: inc/class-vt-blogging-admin.php:351
+msgid "Fully Compatible in Pro Version"
+msgstr "Полная совместимость в ПРО версии"
+
+#: inc/class-vt-blogging-admin.php:96
+msgid "Welcome! Thank you for choosing VT Blogging Theme! To fully take advantage of the best our theme can offer please make sure you visit our %swelcome page%s."
+msgstr "Добро пожаловать! Спасибо за выбор VT Blogging Theme! Для того, чтобы в полной мере воспользоваться всеми нашими лучшими разработками, посетите  %sстраницу приветствия%s."
+
+#: inc/class-vt-blogging-admin.php:385
+msgid "Sticky Header"
+msgstr "Прикрепленный заголовок"
+
+#: inc/class-vt-blogging-admin.php:214
+msgid "Please view our documentation page to setup the theme."
+msgstr "Пожалуйста, ознакомьтесь с нашей документацией перед настройкой темы."
+
+#: inc/class-vt-blogging-admin.php:455
+msgid "Instagram Feed"
+msgstr "Лента Instagram"
+
+#: inc/widgets/widget-about.php:139
+msgid "Instagram:"
+msgstr "Instagram:"
+
+#: inc/widgets/widget-about.php:134
+msgid "Youtube:"
+msgstr "YouTube:"
+
+#: inc/widgets/widget-about.php:129
+msgid "Googleplus:"
+msgstr "Google+:"
+
+#: inc/widgets/widget-about.php:124
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: inc/widgets/widget-about.php:119
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: inc/widgets/widget-about.php:52
+msgid "Youtube"
+msgstr "YouTube"
+
+#: inc/widgets/widget-about.php:114
+msgid "About Description:"
+msgstr "Описание:"
+
+#: inc/widgets/widget-about.php:109
+msgid "Image Height:"
+msgstr "Высота изображения:"
+
+#: inc/widgets/widget-about.php:104
+msgid "Image Width:"
+msgstr "Ширина изображения:"
+
+#: inc/widgets/widget-about.php:99
+msgid "Image ALT:"
+msgstr "ALT изображения:"
+
+#: inc/widgets/widget-about.php:94
+msgid "Image URL:"
+msgstr "URL изображения:"
+
+#: inc/widgets/widget-about.php:89
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: inc/widgets/widget-about.php:14
+msgctxt "widget name"
+msgid "[VT] About Widget"
+msgstr "[VT] Виджет \"О\""
+
+#: inc/widgets/widget-about.php:15
+msgid "About Widget with your image and description."
+msgstr "Виджет \"О\" с вашим изображением и описанием"
+
+#: inc/widgets/widget-about.php:54
+msgid "Feed"
+msgstr "RSS-лента"
+
+#: customizer/customizer-options.php:54 customizer/customizer-options.php:68
+msgid "List Layout"
+msgstr "Макет списком"
+
+#: customizer/customizer-options.php:74
+msgid "Archive Page Layout"
+msgstr "Макет страницы архива"
+
+#: customizer/customizer-options.php:60
+msgid "Blog Page Layout"
+msgstr "Макет страницы блога"
+
+#: customizer/customizer-options.php:55 customizer/customizer-options.php:69
+msgid "Standard Blog Layout"
+msgstr "Стандартный макет блога"
+
+#: inc/template-tags.php:44
+msgid "View all posts in %s"
+msgstr "Посмотреть все записи в %s"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:34 template-parts/content-single.php:62
+msgid "Edit %s"
+msgstr "Редактировать %s"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:49
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: sidebar.php:34
+msgid "Archives"
+msgstr "Архивы"
+
+#: sidebar.php:30
+msgid "Search"
+msgstr "Поиск"
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "Поиск"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "Поиск..."
+
+#: searchform.php:11 searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Поиск:"
+
+#: search.php:20
+msgid "Search Results for %s"
+msgstr "Результаты поиска для %s"
+
+#: inc/widgets/widget-about.php:53
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/widgets/widget-about.php:52
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/widgets/widget-about.php:51
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/widgets/widget-about.php:50
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/widgets/widget-about.php:49
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/widgets/widget-popular.php:87
+msgid "No Picture"
+msgstr "Нет изображения"
+
+#: inc/widgets/widget-popular.php:29
+msgid "[VT] Popular Posts"
+msgstr "[VT] Популярные записи"
+
+#: inc/widgets/widget-popular.php:159
+msgid "Title"
+msgstr "Название"
+
+#: inc/widgets/widget-popular.php:149
+msgid "Popular Posts"
+msgstr "Популярные записи"
+
+#: inc/widgets/widget-popular.php:174
+msgid "Display post date?"
+msgstr "Показывать дату записи?"
+
+#: inc/widgets/widget-about.php:54
+msgid "RSS"
+msgstr "RSS"
+
+#: inc/widgets/widget-about.php:51
+msgid "Google Plus"
+msgstr "Google+"
+
+#: inc/widgets/widget-about.php:144
+msgid "RSS Feed:"
+msgstr "RSS-лента:"
+
+#: inc/template-tags.php:56
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/template-tags.php:60
+msgid "Theme: %1$s by %2$s."
+msgstr "Тема: %1$s от %2$s."
+
+#. Template Name of the plugin/theme
+msgid "Full-width (No Sidebar)"
+msgstr "Полная ширина (без области виджетов)"
+
+#: template-parts/content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничто не соответствует вашим условиям поиска. Пожалуйста, попытайтесь снова с другими ключевыми словами."
+
+#: template-parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начать здесь</a>."
+
+#: layouts/blog-layout-1.php:19 layouts/blog-layout-2.php:21
+#: template-parts/content-loop.php:13 template-parts/content-single.php:25
+msgid "in"
+msgstr "в"
+
+#: layouts/blog-layout-1.php:40 layouts/blog-layout-2.php:32
+#: template-parts/content-loop.php:29 template-parts/content-search.php:27
+msgid "Read More"
+msgstr "Читать далее"
+
+#: header.php:56
+msgid "<a href=\"%s\">Add menu for theme location: Primary Menu.</a>"
+msgstr "<a href=\"%s\">Добавить размещение меню для темы: Основное меню.</a>"
+
+#: customizer/customizer-library/extensions/class-upsell-customize.php:76
+#: inc/class-vt-blogging-admin.php:375
+msgid "VT Blogging Pro"
+msgstr "VT Blogging Pro"
+
+#: customizer/customizer-library/extensions/class-upsell-customize.php:77
+msgid "Buy Pro"
+msgstr "Купить Pro-версию"
+
+#: customizer/customizer-options.php:87
+msgid "Default: 38"
+msgstr "Стандарт: 38"
+
+#: customizer/customizer-options.php:83
+msgid "Number of words to show on excerpt"
+msgstr "Количество слов, которые будут отображаться в отрывке"
+
+#: customizer/customizer-options.php:40
+msgid "Theme Settings"
+msgstr "Настройки темы"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: customizer/customizer-options.php:100
+msgid "Display author box on single posts"
+msgstr "Показывать поле автора на отдельных записях"
+
+#: customizer/customizer-options.php:92
+msgid "Display header search form"
+msgstr "Отображать заголовок формы поиска"
+
+#: customizer/customizer-options.php:161
+msgid "Pagination Background Color"
+msgstr "Цвет фона для разделения на страницы"
+
+#: customizer/customizer-options.php:153
+msgid "Header Search Background"
+msgstr "Заголовок истории поиска"
+
+#: customizer/customizer-options.php:145
+msgid "Header Background"
+msgstr "Заголовок фона"
+
+#: customizer/customizer-options.php:137
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#. #-#-#-#-#  vt-blogging.pot (VT Blogging 1.0.9)  #-#-#-#-#
+#. Author of the plugin/theme
+#: inc/template-tags.php:58
+msgid "VolThemes"
+msgstr "VolThemes"
+
+#: functions.php:146
+msgid "Sidebar"
+msgstr "Область виджетов"
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: functions.php:148 functions.php:157 functions.php:166 functions.php:175
+msgid "Add widgets here."
+msgstr "Добавить виджеты здесь."
+
+#: template-parts/content-none.php:15
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: sidebar.php:24
+msgid "By default it will load Search and Archives widgets as shown below. You can add widget to this area by visiting your <a href=\"%s\">Widgets Panel</a> which will replace default widgets."
+msgstr "По умолчанию будут загружаться виджеты Поиск и Архивы, как показано ниже. Вы можете добавить виджет в эту область, посетив панель <a href=\"%s\">Панель виджетов</a>, которая заменит виджеты по умолчанию."
+
+#: sidebar.php:23
+msgid "This is the Primary Sidebar Widget Area"
+msgstr "Это область виджетов боковой панели"
+
+#: sidebar.php:20
+msgid "Sidebar Widget Area"
+msgstr "Область виджетов"
+
+#: inc/widgets/widget-popular.php:166
+msgid "Number of posts to show"
+msgstr "Количество записей для отображения"
+
+#: inc/widgets/widget-popular.php:23
+msgid "A widget that displays popular posts by comments with thumbnails."
+msgstr "Виджет, который отображает популярные сообщения по комментариям с миниатюрами."
+
+#: customizer/customizer-options.php:116
+msgid "Display \"back to top\" icon link on the site bottom"
+msgstr "Показывать ссылку «вернуться наверх» в нижней части сайта"
+
+#: comments.php:43 comments.php:65
+msgid "Older Comments"
+msgstr "Старые комментарии"
+
+#: comments.php:44 comments.php:66
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+#: category.php:20
+msgid "Home"
+msgstr "Главная"
+
+#: 404.php:17
+msgid "404 Error - Page Not Found"
+msgstr "Ошибка 404 — страницы не существует"
+
+#: 404.php:37
+msgid "Most Used Categories"
+msgstr "Самые популярные рубрики"
+
+#: 404.php:21
+msgid "Sorry, but it looks like nothing was found at this location. You may try one of the links below or do a search."
+msgstr "Извините, но похоже, что в этом месте ничего не найдено. Вы можете попробовать одну из ссылок ниже или выполнить поиск."
+
+#. translators: %1$s: smiley
+#: 404.php:55
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Попробуйте искать в ежемесячных архивах. %1$s"
+
+#: inc/template-tags.php:60
+msgid "Powered by %s."
+msgstr "Работает на %s."
+
+#: inc/template-tags.php:60
+msgid "Copyright &copy; %1$s %2$s. All rights reserved."
+msgstr "Авторские права &copy; %1$s %2$s. Все права защищены."
+
+#: layouts/blog-layout-1.php:17 layouts/blog-layout-2.php:19
+#: template-parts/content-loop.php:11 template-parts/content-single.php:23
+msgid "Posted by"
+msgstr "Создано автором"
+
+#: customizer/customizer-options.php:108
+msgid "Display related posts on single posts"
+msgstr "Показывать связанные записи"
+
+#: comments.php:40 comments.php:62
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 комментарий"
+msgstr[1] "%1$s комментария"
+msgstr[2] "%1$s комментариев"
+
+#: template-parts/content-single.php:109
+msgid "Also Like"
+msgstr "может понравиться"
+
+#: template-parts/content-single.php:109
+msgid "You May"
+msgstr "Вам также"
+
+#. translators: %s: Name of current post.
+#: template-parts/content-single.php:44
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:173
+msgid "Footer Column 3"
+msgstr "Подвал, столбец 3"
+
+#: functions.php:164
+msgid "Footer Column 2"
+msgstr "Подвал, столбец 2"
+
+#: customizer/customizer-options.php:46
+msgid "Site Layout"
+msgstr "Макет сайта"
+
+#: customizer/customizer-options.php:35
+msgid "Fixed Layout"
+msgstr "Фиксированый макет"
+
+#: functions.php:155
+msgid "Footer Column 1"
+msgstr "Подвал, столбец 1"
+
+#: customizer/customizer-options.php:34
+msgid "Responsive Layout"
+msgstr "Адаптивный макет"
+
+#: template-parts/content-none.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+#. Author URI of the plugin/theme
+msgid "https://volthemes.com"
+msgstr "https://volthemes.com"
+
+#. Theme URI of the plugin/theme
+msgid "https://volthemes.com/theme/vt-blogging/"
+msgstr "https://volthemes.com/theme/vt-blogging/"
