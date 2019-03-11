@@ -1,7 +1,7 @@
 ﻿/*
 Theme Name: MephiGa
-Theme URI: http://MephiGa.tk
-Description: none
+Theme URI: MephiGa.tk
+Description: -
 Version: 1.0
 Author: Андрей
 */
@@ -14,17 +14,23 @@ img{
 	border:0;
 	}	
 body{
-	background: 
-	url(images/bg-head.jpg) center top no-repeat,
-	url(images/fire.jpg) center top no-repeat;
+	background:#756e51 url(images/bg-head.jpg) center top no-repeat;
 	}	
 .main{
 	width:970px; margin:0 auto;
 	}
-.head{
-	height:250px;
-	}
-	
+	.head{
+		height:250px;
+		}
+		.head h2{
+			font:normal 24px "Century Gothic"; float:left; color:#3f282f; margin-top:10px;
+			}
+		.head a{
+			font:normal 26px "Century Gothic"; float:right; color:#716b5b; text-decoration:none; margin:20px 10px 0 0;
+			}	
+		.head a span{
+			color:#a73700;
+			}	
 	.menu{
 		overflow:hidden; list-style:none; background:#3f282f;
 		border-radius: 15px 15px 0 0;
@@ -47,17 +53,14 @@ body{
 		float:right; margin: -50px 25px 0 0;
 		}		
 		.serch-txt{
-			height:23px;
+			height:23px; background:#; border:1px solid #fff; width:230px; margin: 0 10px 0 0;
+			border-radius: 2px;
+			-moz-border-radius: 2px;
 			-webkit-border-radius: 2px;
 			}	
 		.serch-btn{
 			position:relative; top:11px;
 			}	
-
-input[class=serch-btn]
-{
-}
-
 	.content-main{
 		background:#f7f7f7; border:1px solid #fff; overflow:hidden; 
 		border-radius: 15px;
@@ -145,13 +148,6 @@ input[class=serch-btn]
 	
 .footer{
 	overflow:hidden; padding: 30px 25px;
-	}
-	.footer {
-    	background-color: linen;
-    	border-radius: 10px;
-    	border: 2px solid #e8f3ff;
-    	overflow: hidden;
-    	padding: 30px 25px;
 	}
 	.cpy{
 		float:left;

@@ -1,5 +1,7 @@
-﻿<?php get_header(); ?>
+<?php get_header(); ?>
 		<div class="content">
+
+<h2 class="page-title">Записи по метке "<?php single_tag_title(); ?>"</h2>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -10,13 +12,10 @@
 		<?php the_excerpt(); ?>
 <p><a href="<?php the_permalink(); ?>">Читать далее</a></p>
 <p><?php the_tags(); ?></p>
-
 	</div>
 </div>
 
-
 <?php endwhile; ?>
-
 <div class="pagination">
 	<?php
 		// global $wp_query;
@@ -33,7 +32,6 @@
 		) );
 	?>
 </div>
-
 <?php else: ?>
 <!-- no posts found -->
 <?php endif; ?>
