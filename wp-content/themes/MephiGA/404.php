@@ -8,3 +8,9 @@
 	<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
+
+
+
+position: absolute;
+    	top: 770px;
+    	width: 915px;

@@ -54,9 +54,6 @@ body{
 			position:relative; top:11px;
 			}	
 
-input[class=serch-btn]
-{
-}
 
 	.content-main{
 		background:#f7f7f7; border:1px solid #fff; overflow:hidden; 
@@ -143,9 +140,7 @@ input[class=serch-btn]
 					
 /*		FOOTER		*/					
 	
-.footer{
-	overflow:hidden; padding: 30px 25px;
-	}
+
 	.footer {
     	background-color: linen;
     	border-radius: 10px;
@@ -153,17 +148,17 @@ input[class=serch-btn]
     	overflow: hidden;
     	padding: 30px 25px;
 	}
-	.cpy{
+.cpy{
 		float:left;
 		}					
 	.cpy a{
-		font:normal 26px "Century Gothic"; color:#716b5b; text-decoration:none; margin:20px 10px 0 0;
+		font:normal 30px "Century Gothic"; color:#716b5b; text-decoration:none; margin:20px 10px 0 0;
 		}	
 	.cpy a span{
 		color:#a73700;
 		}
 	.cpy p{
-		font:14px verdana; color:#000; line-height:1.1; margin:10px 0 0 0;
+		font:30px verdana; color:#000; line-height:1.1; margin:10px 0 0 0;
 		}		
 	.menu-foot{
 		float:left; margin: 0 0 0 175px;
@@ -183,6 +178,53 @@ input[class=serch-btn]
 				.menu-foot ul li a:hover{
 					font:14px "Century Gothic"; color:#000; text-decoration:none;
 					}	
+	
+
+
+
+.footer-404 {
+    	background-color: linen;
+    	border-radius: 10px;
+    	border: 2px solid #e8f3ff;
+    	overflow: hidden;
+    	padding: 30px 25px;
+	position:absolute;
+	top:770px;
+	width:915px;
+	}
+.cpy{
+		float:left;
+		}					
+	.cpy a{
+		font:normal 30px "Century Gothic"; color:#716b5b; text-decoration:none; margin:20px 10px 0 0;
+		}	
+	.cpy a span{
+		color:#a73700;
+		}
+	.cpy p{
+		font:30px verdana; color:#000; line-height:1.1; margin:10px 0 0 0;
+		}		
+	.menu-foot{
+		float:left; margin: 0 0 0 175px;
+		}	
+		.menu-foot h2{
+			font:normal 24px "Century Gothic"; color:#3f282f;
+			}
+		.menu-foot ul{
+			list-style:none;
+			}	
+			.menu-foot ul li{
+				list-style:none;
+				}	
+				.menu-foot ul li a{
+					font:14px "Century Gothic"; color:#000;
+					}
+				.menu-foot ul li a:hover{
+					font:14px "Century Gothic"; color:#000; text-decoration:none;
+					}	
+
+
+	
 							
 #slider{
 	background: #b5b5b5;
