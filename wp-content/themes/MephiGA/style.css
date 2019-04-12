@@ -495,3 +495,30 @@ input[type="submit"]:hover{
 	background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
 	background-image: linear-gradient(top, #f9f9f9, #ebebeb);
 }
+
+
+#mess{
+	width: 649px; 
+	height: 224px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+}
+
+#name, #email {
+	width: 30%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+}
+
+
+#submit {
+	font-weight: 400;
+	background: #000;
+	font-size: 15px;
+	color: #fff;
+	padding: 10px 50px;
+	border: none;
+	cursor: pointer;
+}

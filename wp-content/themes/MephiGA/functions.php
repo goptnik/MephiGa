@@ -124,3 +124,52 @@ function slider(){
 }
 
 ?>
+
+
+<?php
+function myform_action_callback() {
+	global $wpdb;
+	global $mail;
+	$nonce=$_POST['nonce'];
+	$rtr='';
+if (!wp_verify_nonce( $nonce, 'myform_action-nonce'))wp_die('{"error":"Error. Spam"}');
+	$message="";
+	$to="goptnik@mail.ru"; 
+	$headers = "Content-type: text/html; charset=utf-8 \r\n";
+	$headers.= "From: wordpress@goptnik.beget.tech \r\n"; // заменить на другой ящик
+	$subject="Сообщение с сайта ".$_SERVER['SERVER_NAME'];
+	do_action('plugins_loaded');
+	if (!empty($_POST['name']) && !empty($_POST['mess']) && !empty($_POST['email'])){
+	$message.="Имя: ".$_POST['name'];
+	$message.="<br/>E-mail: ".$_POST['email'];
+	$message.="<br/>Сообщение:<br/>".nl2br($_POST['mess']);
+if(wp_mail($to, $subject, $message, $headers)){
+	$rtr='{"work":"Сообщение отправлено!","error":""}';
+}else{
+	$rtr='{"error":"Ошибка сервера."}';
+}
+}else{
+	$rtr='{"error":"Все поля обязательны к заполнению!"}';
+}
+echo $rtr;
+exit;
+}
+	add_action('wp_ajax_nopriv_myform_send_action', 'myform_action_callback');
+	add_action('wp_ajax_myform_send_action', 'myform_action_callback');
+	function myform_stylesheet(){
+	wp_enqueue_style("myform_style_templ",get_bloginfo('stylesheet_directory')."style.css","0.1.2",true);
+	wp_enqueue_script("myform_script_temp",get_bloginfo('stylesheet_directory')."/js/scriptform.js",array('jquery'),"0.1.2",true);
+	wp_localize_script("myform_script_temp", "myform_Ajax", array( 'ajaxurl' => admin_url( 'admin-ajax.php' ), 'nonce' => wp_create_nonce('myform_action-nonce') ) );
+}
+	add_action( 'wp_enqueue_scripts', 'myform_stylesheet' );
+function MephiGa_contacts() {
+	$rty='<div class="form">';
+	$rty.='<div class="line"><input id="name" type="text" placeholder="Имя"/></div>';
+	$rty.='<div class="line"><input id="email" type="text" placeholder="Почта"/></div>';
+	$rty.='<div class="line"><textarea id="mess" placeholder="Сообщение"></textarea></div>';
+	$rty.='<div class="line"><input type="submit" onclick="myform_ajax_send(\'#name\',\'#email\',\'#mess\'); return false;" value="Отправить"/></div>';
+	$rty.='</div>';
+return $rty;
+}
+add_shortcode( 'MephiGa_contacts', 'MephiGa_contacts' );
+	?>
