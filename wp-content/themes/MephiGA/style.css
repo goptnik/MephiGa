@@ -16,7 +16,7 @@ img{
 body{
 	background: 
 	url(images/bg-head.jpg) center top no-repeat,
-	url(images/fire.jpg) center top no-repeat;
+	url(images/fire.jpg) center top repeat;
 	}	
 .main{
 	width:970px; margin:0 auto;
